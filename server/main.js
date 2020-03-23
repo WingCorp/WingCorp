@@ -5,7 +5,7 @@ const app = express()
 
 const main = async () => {
     app.use(express.static(path.join(__dirname, '../app/')))
-    app.listen(config.port, config.address, () => console.log(`Listening on port ${port}`))
+    app.listen(config.port, config.address, () => console.log(`Listening on port ${config.port} at ${config.address}`))
 }
 
 main()
