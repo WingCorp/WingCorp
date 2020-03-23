@@ -1,0 +1,54 @@
+body {
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+a {
+    color: #4980a0;
+}
+
+a:visited {
+    color: #CCCCCC
+}
+
+p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.content {
+    color: #d4d4d4;
+    background-color: #252526;
+    font-family: monospace;
+    margin-top: 5%;
+    padding-top: 0%;
+    padding: 2%;
+    width: 70%;
+    max-width: 70em;
+    display: inline-block;
+    text-align: left;
+}
+
+.section {
+    margin-top: 1%;
+    border-top: 0.1em inset #d4d4d4;
+}
+
+.image {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.lowered {
+    margin-top: 0.5em;
+}
+
+.footnote {
+    font-size: 80%;
+    width: 50%;
+}
+
+.neg {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
