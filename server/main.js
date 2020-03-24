@@ -1,10 +1,15 @@
 const express = require('express')
-const config = require('./config')
 const path = require('path')
+const process = require('process')
+
+//Load config and change directory
+const config = require('./config')
+process.chdir(config.path)
+
 const app = express()
 
 const main = async () => {
-    app.use(express.static(path.join(__dirname, '../app/')))
+    app.use(express.static('./'))
     app.listen(config.port, config.address, () => console.log(`Listening on port ${config.port} at ${config.address}`))
 }
 
