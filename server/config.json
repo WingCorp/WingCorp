@@ -2,5 +2,6 @@
   "path": "/opt/WingCorp/app",
   "address": "0.0.0.0",
   "port": 80,
-  "debug": false
+  "debug": false,
+  "database": "/opt/WingCorp/server/database.db"
 }

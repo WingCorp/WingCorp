@@ -11,6 +11,16 @@ a:visited {
     color: #CCCCCC
 }
 
+.clickable {
+    color: #4980a0;
+    cursor: pointer;
+}
+
+.clickable:hover {
+    color: #CCCCCC;
+    cursor: pointer;
+}
+
 p {
     word-wrap: break-word;
     overflow-wrap: break-word;
@@ -51,4 +61,21 @@ p {
 .neg {
     -webkit-filter: invert(1);
     filter: invert(1);
+}
+
+input {
+    color: #d4d4d4;
+    background-color: #1e1e1e;
+}
+
+th {
+    border-bottom: 1px solid #d4d4d4;
+}
+
+table {
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
 }
